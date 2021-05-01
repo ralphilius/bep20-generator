@@ -16,20 +16,20 @@ import "../../service/ServicePayer.sol";
 contract CommonBEP20 is BEP20Capped, BEP20Mintable, BEP20Burnable, ServicePayer {
 
     constructor (
-        string memory name,
-        string memory symbol,
-        uint8 decimals,
-        uint256 cap,
-        uint256 initialBalance,
-        address payable feeReceiver
+        string memory name_,
+        string memory symbol_,
+        uint8 decimals_,
+        uint256 cap_,
+        uint256 initialBalance_,
+        address payable feeReceiver_
     )
-        BEP20(name, symbol)
-        BEP20Capped(cap)
-        ServicePayer(feeReceiver, "CommonBEP20")
+        BEP20(name_, symbol_)
+        BEP20Capped(cap_)
+        ServicePayer(feeReceiver_, "CommonBEP20")
         payable
     {
-        _setupDecimals(decimals);
-        _mint(_msgSender(), initialBalance);
+        _setupDecimals(decimals_);
+        _mint(_msgSender(), initialBalance_);
     }
 
     /**

@@ -187,14 +187,14 @@
 <!-- 7 -->
 <g id="node8" class="node">
 <title>7</title>
-<polygon fill="#f2f2f2" stroke="#000000" points="988.7476,-17.3 988.7476,-125.3 1164.1264,-125.3 1164.1264,-17.3 988.7476,-17.3"/>
-<text text-anchor="middle" x="1076.437" y="-108.7" font-family="Times,serif" font-size="14.00" fill="#000000">&lt;&lt;Interface&gt;&gt;</text>
-<text text-anchor="middle" x="1076.437" y="-91.9" font-family="Times,serif" font-size="14.00" fill="#000000">IPayable</text>
-<polyline fill="none" stroke="#000000" points="988.7476,-83.7 1164.1264,-83.7 "/>
-<text text-anchor="middle" x="1076.437" y="-67.1" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
-<polyline fill="none" stroke="#000000" points="988.7476,-58.9 1164.1264,-58.9 "/>
-<text text-anchor="start" x="996.7476" y="-42.3" font-family="Times,serif" font-size="14.00" fill="#000000">External:</text>
-<text text-anchor="start" x="996.7476" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;&#160;pay(serviceName: string)</text>
+<polygon fill="#f2f2f2" stroke="#000000" points="1009.7476,-17.3 1009.7476,-125.3 1185.1264,-125.3 1185.1264,-17.3 1009.7476,-17.3"/>
+<text text-anchor="middle" x="1097.437" y="-108.7" font-family="Times,serif" font-size="14.00" fill="#000000">&lt;&lt;Interface&gt;&gt;</text>
+<text text-anchor="middle" x="1097.437" y="-91.9" font-family="Times,serif" font-size="14.00" fill="#000000">IPayable</text>
+<polyline fill="none" stroke="#000000" points="1009.7476,-83.7 1185.1264,-83.7 "/>
+<text text-anchor="middle" x="1097.437" y="-67.1" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+<polyline fill="none" stroke="#000000" points="1009.7476,-58.9 1185.1264,-58.9 "/>
+<text text-anchor="start" x="1017.7476" y="-42.3" font-family="Times,serif" font-size="14.00" fill="#000000">External:</text>
+<text text-anchor="start" x="1017.7476" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;&#160;pay(serviceName: string)</text>
 </g>
 <!-- 8 -->
 <g id="node9" class="node">
@@ -211,16 +211,16 @@
 <!-- 9 -->
 <g id="node10" class="node">
 <title>9</title>
-<polygon fill="#f2f2f2" stroke="#000000" points="283.9067,-.5 283.9067,-142.1 970.9673,-142.1 970.9673,-.5 283.9067,-.5"/>
+<polygon fill="#f2f2f2" stroke="#000000" points="262.9067,-.5 262.9067,-142.1 991.9673,-142.1 991.9673,-.5 262.9067,-.5"/>
 <text text-anchor="middle" x="627.437" y="-125.5" font-family="Times,serif" font-size="14.00" fill="#000000">CommonBEP20</text>
-<polyline fill="none" stroke="#000000" points="283.9067,-117.3 970.9673,-117.3 "/>
+<polyline fill="none" stroke="#000000" points="262.9067,-117.3 991.9673,-117.3 "/>
 <text text-anchor="middle" x="627.437" y="-100.7" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
-<polyline fill="none" stroke="#000000" points="283.9067,-92.5 970.9673,-92.5 "/>
-<text text-anchor="start" x="291.9067" y="-75.9" font-family="Times,serif" font-size="14.00" fill="#000000">Internal:</text>
-<text text-anchor="start" x="291.9067" y="-59.1" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;_mint(account: address, amount: uint256)</text>
-<text text-anchor="start" x="291.9067" y="-42.3" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;_finishMinting()</text>
-<text text-anchor="start" x="291.9067" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000">Public:</text>
-<text text-anchor="start" x="291.9067" y="-8.7" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;constructor(name: string, symbol: string, decimals: uint8, cap: uint256, initialBalance: uint256, feeReceiver: address)</text>
+<polyline fill="none" stroke="#000000" points="262.9067,-92.5 991.9673,-92.5 "/>
+<text text-anchor="start" x="270.9067" y="-75.9" font-family="Times,serif" font-size="14.00" fill="#000000">Internal:</text>
+<text text-anchor="start" x="270.9067" y="-59.1" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;_mint(account: address, amount: uint256)</text>
+<text text-anchor="start" x="270.9067" y="-42.3" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;_finishMinting()</text>
+<text text-anchor="start" x="270.9067" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000">Public:</text>
+<text text-anchor="start" x="270.9067" y="-8.7" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;constructor(name_: string, symbol_: string, decimals_: uint8, cap_: uint256, initialBalance_: uint256, feeReceiver_: address)</text>
 </g>
 <!-- 9&#45;&gt;4 -->
 <g id="edge7" class="edge">

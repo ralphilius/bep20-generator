@@ -375,14 +375,14 @@
 <!-- 15 -->
 <g id="node16" class="node">
 <title>15</title>
-<polygon fill="#f2f2f2" stroke="#000000" points="1207.7476,-17.3 1207.7476,-125.3 1383.1264,-125.3 1383.1264,-17.3 1207.7476,-17.3"/>
-<text text-anchor="middle" x="1295.437" y="-108.7" font-family="Times,serif" font-size="14.00" fill="#000000">&lt;&lt;Interface&gt;&gt;</text>
-<text text-anchor="middle" x="1295.437" y="-91.9" font-family="Times,serif" font-size="14.00" fill="#000000">IPayable</text>
-<polyline fill="none" stroke="#000000" points="1207.7476,-83.7 1383.1264,-83.7 "/>
-<text text-anchor="middle" x="1295.437" y="-67.1" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
-<polyline fill="none" stroke="#000000" points="1207.7476,-58.9 1383.1264,-58.9 "/>
-<text text-anchor="start" x="1215.7476" y="-42.3" font-family="Times,serif" font-size="14.00" fill="#000000">External:</text>
-<text text-anchor="start" x="1215.7476" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;&#160;pay(serviceName: string)</text>
+<polygon fill="#f2f2f2" stroke="#000000" points="1224.7476,-17.3 1224.7476,-125.3 1400.1264,-125.3 1400.1264,-17.3 1224.7476,-17.3"/>
+<text text-anchor="middle" x="1312.437" y="-108.7" font-family="Times,serif" font-size="14.00" fill="#000000">&lt;&lt;Interface&gt;&gt;</text>
+<text text-anchor="middle" x="1312.437" y="-91.9" font-family="Times,serif" font-size="14.00" fill="#000000">IPayable</text>
+<polyline fill="none" stroke="#000000" points="1224.7476,-83.7 1400.1264,-83.7 "/>
+<text text-anchor="middle" x="1312.437" y="-67.1" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+<polyline fill="none" stroke="#000000" points="1224.7476,-58.9 1400.1264,-58.9 "/>
+<text text-anchor="start" x="1232.7476" y="-42.3" font-family="Times,serif" font-size="14.00" fill="#000000">External:</text>
+<text text-anchor="start" x="1232.7476" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;&#160;pay(serviceName: string)</text>
 </g>
 <!-- 16 -->
 <g id="node17" class="node">
@@ -399,16 +399,16 @@
 <!-- 17 -->
 <g id="node18" class="node">
 <title>17</title>
-<polygon fill="#f2f2f2" stroke="#000000" points="579.2072,-.5 579.2072,-142.1 1189.6668,-142.1 1189.6668,-.5 579.2072,-.5"/>
+<polygon fill="#f2f2f2" stroke="#000000" points="561.7072,-.5 561.7072,-142.1 1207.1668,-142.1 1207.1668,-.5 561.7072,-.5"/>
 <text text-anchor="middle" x="884.437" y="-125.5" font-family="Times,serif" font-size="14.00" fill="#000000">AmazingBEP20</text>
-<polyline fill="none" stroke="#000000" points="579.2072,-117.3 1189.6668,-117.3 "/>
+<polyline fill="none" stroke="#000000" points="561.7072,-117.3 1207.1668,-117.3 "/>
 <text text-anchor="middle" x="884.437" y="-100.7" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
-<polyline fill="none" stroke="#000000" points="579.2072,-92.5 1189.6668,-92.5 "/>
-<text text-anchor="start" x="587.2072" y="-75.9" font-family="Times,serif" font-size="14.00" fill="#000000">Internal:</text>
-<text text-anchor="start" x="587.2072" y="-59.1" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;_mint(account: address, amount: uint256)</text>
-<text text-anchor="start" x="587.2072" y="-42.3" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;_finishMinting()</text>
-<text text-anchor="start" x="587.2072" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000">Public:</text>
-<text text-anchor="start" x="587.2072" y="-8.7" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;constructor(name: string, symbol: string, decimals: uint8, initialBalance: uint256, feeReceiver: address)</text>
+<polyline fill="none" stroke="#000000" points="561.7072,-92.5 1207.1668,-92.5 "/>
+<text text-anchor="start" x="569.7072" y="-75.9" font-family="Times,serif" font-size="14.00" fill="#000000">Internal:</text>
+<text text-anchor="start" x="569.7072" y="-59.1" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;_mint(account: address, amount: uint256)</text>
+<text text-anchor="start" x="569.7072" y="-42.3" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;_finishMinting()</text>
+<text text-anchor="start" x="569.7072" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000">Public:</text>
+<text text-anchor="start" x="569.7072" y="-8.7" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;constructor(name_: string, symbol_: string, decimals_: uint8, initialBalance_: uint256, feeReceiver_: address)</text>
 </g>
 <!-- 17&#45;&gt;4 -->
 <g id="edge18" class="edge">
@@ -431,14 +431,14 @@
 <!-- 17&#45;&gt;14 -->
 <g id="edge21" class="edge">
 <title>17&#45;&gt;14</title>
-<path fill="none" stroke="#000000" d="M579.0761,-130.6927C532.1028,-143.9695 484.8321,-159.8254 441.437,-178.6 401.037,-196.0789 359.7627,-221.5722 325.3534,-245.3695"/>
+<path fill="none" stroke="#000000" d="M561.6765,-135.7275C520.4925,-147.9282 479.4758,-162.1427 441.437,-178.6 401.037,-196.0789 359.7627,-221.5722 325.3534,-245.3695"/>
 <polygon fill="none" stroke="#000000" points="319.1284,-236.9121 300.7869,-262.8706 331.3131,-254.0158 319.1284,-236.9121"/>
 </g>
 <!-- 17&#45;&gt;16 -->
 <g id="edge22" class="edge">
 <title>17&#45;&gt;16</title>
-<path fill="none" stroke="#000000" d="M1189.7017,-141.1991C1192.6254,-141.6769 1195.5378,-142.1441 1198.437,-142.6 1376.9531,-170.6711 1435.3013,-112.3701 1603.437,-178.6 1636.1631,-191.491 1667.7598,-212.926 1694.498,-234.7152"/>
-<polygon fill="none" stroke="#000000" points="1687.9955,-242.9723 1717.5805,-254.5903 1701.6979,-227.0586 1687.9955,-242.9723"/>
+<path fill="none" stroke="#000000" d="M1207.5633,-141.3724C1210.1974,-141.7892 1212.8224,-142.1986 1215.437,-142.6 1386.6164,-168.8815 1442.4252,-114.8168 1603.437,-178.6 1636.1381,-191.5542 1667.7286,-213.0052 1694.4686,-234.7895"/>
+<polygon fill="none" stroke="#000000" points="1687.9662,-243.0465 1717.5549,-254.6552 1701.6636,-227.1285 1687.9662,-243.0465"/>
 </g>
 </g>
 </svg>

@@ -12,15 +12,15 @@ import "../../utils/GeneratorCopyright.sol";
  * @author BEP20 Generator (https://vittominacori.github.io/bep20-generator)
  * @dev Implementation of the HelloBEP20
  */
-contract HelloBEP20 is BEP20, ServicePayer, GeneratorCopyright("v2.0.0") {
+contract HelloBEP20 is BEP20, ServicePayer, GeneratorCopyright("v2.1.0") {
 
     constructor (
-        string memory name,
-        string memory symbol,
-        address payable feeReceiver
+        string memory name_,
+        string memory symbol_,
+        address payable feeReceiver_
     )
-        BEP20(name, symbol)
-        ServicePayer(feeReceiver, "HelloBEP20")
+        BEP20(name_, symbol_)
+        ServicePayer(feeReceiver_, "HelloBEP20")
         payable
     {
         _mint(_msgSender(), 100000e18);

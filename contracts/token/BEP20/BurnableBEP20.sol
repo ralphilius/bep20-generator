@@ -13,19 +13,19 @@ import "../../service/ServicePayer.sol";
 contract BurnableBEP20 is BEP20Burnable, ServicePayer {
 
     constructor (
-        string memory name,
-        string memory symbol,
-        uint8 decimals,
-        uint256 initialBalance,
-        address payable feeReceiver
+        string memory name_,
+        string memory symbol_,
+        uint8 decimals_,
+        uint256 initialBalance_,
+        address payable feeReceiver_
     )
-        BEP20(name, symbol)
-        ServicePayer(feeReceiver, "BurnableBEP20")
+        BEP20(name_, symbol_)
+        ServicePayer(feeReceiver_, "BurnableBEP20")
         payable
     {
-        require(initialBalance > 0, "BurnableBEP20: supply cannot be zero");
+        require(initialBalance_ > 0, "BurnableBEP20: supply cannot be zero");
 
-        _setupDecimals(decimals);
-        _mint(_msgSender(), initialBalance);
+        _setupDecimals(decimals_);
+        _mint(_msgSender(), initialBalance_);
     }
 }

@@ -12,20 +12,20 @@ import "../../utils/GeneratorCopyright.sol";
  * @author BEP20 Generator (https://vittominacori.github.io/bep20-generator)
  * @dev Implementation of the SimpleBEP20
  */
-contract SimpleBEP20 is BEP20, ServicePayer, GeneratorCopyright("v2.0.0") {
+contract SimpleBEP20 is BEP20, ServicePayer, GeneratorCopyright("v2.1.0") {
 
     constructor (
-        string memory name,
-        string memory symbol,
-        uint256 initialBalance,
-        address payable feeReceiver
+        string memory name_,
+        string memory symbol_,
+        uint256 initialBalance_,
+        address payable feeReceiver_
     )
-        BEP20(name, symbol)
-        ServicePayer(feeReceiver, "SimpleBEP20")
+        BEP20(name_, symbol_)
+        ServicePayer(feeReceiver_, "SimpleBEP20")
         payable
     {
-        require(initialBalance > 0, "SimpleBEP20: supply cannot be zero");
+        require(initialBalance_ > 0, "SimpleBEP20: supply cannot be zero");
 
-        _mint(_msgSender(), initialBalance);
+        _mint(_msgSender(), initialBalance_);
     }
 }

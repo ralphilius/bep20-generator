@@ -1,20 +1,5 @@
 // SPDX-License-Identifier: MIT
 
-/*
- * Token has been generated using https://vittominacori.github.io/bep20-generator/
- *
- * NOTE: "Contract Source Code Verified (Similar Match)" means that this Token is similar to other tokens deployed
- *  using the same generator. It is not an issue. It means that you won't need to verify your source code because of
- *  it is already verified.
- *
- * DISCLAIMER: GENERATOR'S AUTHOR IS FREE OF ANY LIABILITY REGARDING THE TOKEN AND THE USE THAT IS MADE OF IT.
- *  The following code is provided under MIT License. Anyone can use it as per their needs.
- *  The generator's purpose is to make people able to tokenize their ideas without coding.
- *  Source code is well tested and continuously updated to reduce risk of bugs and to introduce language optimizations.
- *  Anyway the purchase of tokens involves a high degree of risk. Before acquiring tokens, it is recommended to
- *  carefully weighs all the information and risks detailed in Token owner's Conditions.
- */
-
 // File: @openzeppelin/contracts/utils/Context.sol
 
 
@@ -603,20 +588,20 @@ pragma solidity ^0.8.0;
  * @author BEP20 Generator (https://vittominacori.github.io/bep20-generator)
  * @dev Implementation of the SimpleBEP20
  */
-contract SimpleBEP20 is BEP20, ServicePayer, GeneratorCopyright("v2.0.0") {
+contract SimpleBEP20 is BEP20, ServicePayer, GeneratorCopyright("v2.1.0") {
 
     constructor (
-        string memory name,
-        string memory symbol,
-        uint256 initialBalance,
-        address payable feeReceiver
+        string memory name_,
+        string memory symbol_,
+        uint256 initialBalance_,
+        address payable feeReceiver_
     )
-        BEP20(name, symbol)
-        ServicePayer(feeReceiver, "SimpleBEP20")
+        BEP20(name_, symbol_)
+        ServicePayer(feeReceiver_, "SimpleBEP20")
         payable
     {
-        require(initialBalance > 0, "SimpleBEP20: supply cannot be zero");
+        require(initialBalance_ > 0, "SimpleBEP20: supply cannot be zero");
 
-        _mint(_msgSender(), initialBalance);
+        _mint(_msgSender(), initialBalance_);
     }
 }

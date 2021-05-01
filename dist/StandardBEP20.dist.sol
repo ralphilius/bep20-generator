@@ -554,19 +554,19 @@ pragma solidity ^0.8.0;
 contract StandardBEP20 is BEP20, ServicePayer {
 
     constructor (
-        string memory name,
-        string memory symbol,
-        uint8 decimals,
-        uint256 initialBalance,
-        address payable feeReceiver
+        string memory name_,
+        string memory symbol_,
+        uint8 decimals_,
+        uint256 initialBalance_,
+        address payable feeReceiver_
     )
-        BEP20(name, symbol)
-        ServicePayer(feeReceiver, "StandardBEP20")
+        BEP20(name_, symbol_)
+        ServicePayer(feeReceiver_, "StandardBEP20")
         payable
     {
-        require(initialBalance > 0, "StandardBEP20: supply cannot be zero");
+        require(initialBalance_ > 0, "StandardBEP20: supply cannot be zero");
 
-        _setupDecimals(decimals);
-        _mint(_msgSender(), initialBalance);
+        _setupDecimals(decimals_);
+        _mint(_msgSender(), initialBalance_);
     }
 }
