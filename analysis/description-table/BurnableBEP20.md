@@ -5,7 +5,7 @@
 
 |  File Name  |  SHA-1 Hash  |
 |-------------|--------------|
-| dist/BurnableBEP20.dist.sol | 6bebf9b7c6299a693208c165fb1baf52045e2291 |
+| dist/BurnableBEP20.dist.sol | 46e1e5508f371d42e7c2ae9d8f266ec3eafc26a6 |
 
 
 ### Contracts Description Table

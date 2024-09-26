@@ -121,14 +121,14 @@
 <!-- 4 -->
 <g id="node5" class="node">
 <title>4</title>
-<polygon fill="#f2f2f2" stroke="#000000" points="805.7476,-.5 805.7476,-108.5 981.1264,-108.5 981.1264,-.5 805.7476,-.5"/>
-<text text-anchor="middle" x="893.437" y="-91.9" font-family="Times,serif" font-size="14.00" fill="#000000">&lt;&lt;Interface&gt;&gt;</text>
-<text text-anchor="middle" x="893.437" y="-75.1" font-family="Times,serif" font-size="14.00" fill="#000000">IPayable</text>
-<polyline fill="none" stroke="#000000" points="805.7476,-66.9 981.1264,-66.9 "/>
-<text text-anchor="middle" x="893.437" y="-50.3" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
-<polyline fill="none" stroke="#000000" points="805.7476,-42.1 981.1264,-42.1 "/>
-<text text-anchor="start" x="813.7476" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000">External:</text>
-<text text-anchor="start" x="813.7476" y="-8.7" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;&#160;pay(serviceName: string)</text>
+<polygon fill="#f2f2f2" stroke="#000000" points="822.7476,-.5 822.7476,-108.5 998.1264,-108.5 998.1264,-.5 822.7476,-.5"/>
+<text text-anchor="middle" x="910.437" y="-91.9" font-family="Times,serif" font-size="14.00" fill="#000000">&lt;&lt;Interface&gt;&gt;</text>
+<text text-anchor="middle" x="910.437" y="-75.1" font-family="Times,serif" font-size="14.00" fill="#000000">IPayable</text>
+<polyline fill="none" stroke="#000000" points="822.7476,-66.9 998.1264,-66.9 "/>
+<text text-anchor="middle" x="910.437" y="-50.3" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+<polyline fill="none" stroke="#000000" points="822.7476,-42.1 998.1264,-42.1 "/>
+<text text-anchor="start" x="830.7476" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000">External:</text>
+<text text-anchor="start" x="830.7476" y="-8.7" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;&#160;pay(serviceName: string)</text>
 </g>
 <!-- 5 -->
 <g id="node6" class="node">
@@ -145,13 +145,13 @@
 <!-- 6 -->
 <g id="node7" class="node">
 <title>6</title>
-<polygon fill="#f2f2f2" stroke="#000000" points="177.2072,-8.9 177.2072,-100.1 787.6668,-100.1 787.6668,-8.9 177.2072,-8.9"/>
+<polygon fill="#f2f2f2" stroke="#000000" points="159.7072,-8.9 159.7072,-100.1 805.1668,-100.1 805.1668,-8.9 159.7072,-8.9"/>
 <text text-anchor="middle" x="482.437" y="-83.5" font-family="Times,serif" font-size="14.00" fill="#000000">StandardBEP20</text>
-<polyline fill="none" stroke="#000000" points="177.2072,-75.3 787.6668,-75.3 "/>
+<polyline fill="none" stroke="#000000" points="159.7072,-75.3 805.1668,-75.3 "/>
 <text text-anchor="middle" x="482.437" y="-58.7" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
-<polyline fill="none" stroke="#000000" points="177.2072,-50.5 787.6668,-50.5 "/>
-<text text-anchor="start" x="185.2072" y="-33.9" font-family="Times,serif" font-size="14.00" fill="#000000">Public:</text>
-<text text-anchor="start" x="185.2072" y="-17.1" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;constructor(name: string, symbol: string, decimals: uint8, initialBalance: uint256, feeReceiver: address)</text>
+<polyline fill="none" stroke="#000000" points="159.7072,-50.5 805.1668,-50.5 "/>
+<text text-anchor="start" x="167.7072" y="-33.9" font-family="Times,serif" font-size="14.00" fill="#000000">Public:</text>
+<text text-anchor="start" x="167.7072" y="-17.1" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;constructor(name_: string, symbol_: string, decimals_: uint8, initialBalance_: uint256, feeReceiver_: address)</text>
 </g>
 <!-- 6&#45;&gt;3 -->
 <g id="edge4" class="edge">
